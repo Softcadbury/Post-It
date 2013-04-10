@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<title>Romain Parage - Notes</title>
+		<meta charset="utf-8">
+		<meta name="description" content="Javascript notes - Romain Parage">
+		<meta name="author" content="Romain Parage">
+
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script src="assets/bootstrap.js"></script>
+		<script src="assets/script.js"></script>
+
+		<link rel="shortcut icon" href="../assets/img/favicon.ico" />
+		<link href="assets/style.css" rel="stylesheet">
+		<link href="assets/bootstrap.custom.css" rel="stylesheet">
+	</head>
+	<body>
+		<div id="container"></div>
+		<ul id="context-menu">
+			<li id="add-note">Ajouter une note</li>
+			<li id="del-note">Supprimer cette note</li>
+		</ul>
+		<button type="submit" class="btn btn-primary" id="show_help">Aide</button>
+		<div class="modal hide fade" id="help_content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">×</button>
+				<h3>Prenez des notes en toute simplicité !</h3>				
+			</div>	        
+	        <div class="modal-body">
+        		Toutes les données sont stockées dans les cookies du navigateur, faites donc attention
+				à ne pas les supprimer, sous peine de perdre vos notes.<br/><br/>
+				Utilisation :
+        		<ul>
+        			<li>Clic droit pour pouvoir créer une note</li>
+        			<li>Clic droit sur une note pour pouvoir la supprimer</li>
+        		</ul>
+	        </div>
+	        <div class="modal-footer">
+	        	<button type="submit" class="btn btn-primary" data-dismiss="modal">Continuer</button>
+	        </div>
+		</div>
+	</body>
+</html>
