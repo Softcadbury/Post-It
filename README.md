@@ -1,4 +1,4 @@
-#Post-It <a href="http://romain.parage.free.fr/notes/">Try it !</a>
+#Post-It - <a href="http://romain.parage.free.fr/notes/">Try it !</a>
 
 ## Description
 
