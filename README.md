@@ -6,4 +6,4 @@ This is a project that allows you to keep notes.
 
 ## Screenshot
 
-![alt tag](https://github.com/Softcadbury/EPortfolio/blob/master/EPortfolio/Content/Images/preview/note.PNG)
+![alt tag](https://github.com/Softcadbury/EPortfolio/blob/master/EPortfolio/Content/Images/preview/note.png)
